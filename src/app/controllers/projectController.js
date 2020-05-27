@@ -3,8 +3,7 @@ const express = require('express');
 
 const Project = require('../models/Project');
 const Task = require('../models/Task');
-
-
+  
 const authMiddleware = require('../middlewares/auth')
 const router = express.Router();
 //Para adicionar ao Body de todas as rotas a Verificação do Token
